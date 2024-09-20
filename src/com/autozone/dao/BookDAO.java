@@ -7,7 +7,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
 import com.autozone.database.DatabaseConnection;
 import com.autozone.models.Book;
 import com.autozone.utils.Validator;
