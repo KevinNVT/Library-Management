@@ -1,11 +1,9 @@
 package com.autozone.models;
-
 import com.autozone.annotations.MembersName;
 import com.autozone.annotations.NotEmpty;
 import com.autozone.annotations.NotNull;
 
 public class Member {
-	
 	private int id;
 	@NotNull
 	@NotEmpty
