@@ -1,14 +1,11 @@
 package com.autozone.utils;
-
 import java.lang.reflect.Field;
-
 import com.autozone.annotations.Isbn;
 import com.autozone.annotations.MembersName;
 import com.autozone.annotations.NotEmpty;
 import com.autozone.annotations.NotNull;
 
 public class Validator {
-	
 	public static void validate(Object obj) throws IllegalArgumentException, IllegalAccessException {
         Field[] fields = obj.getClass().getDeclaredFields();
 
