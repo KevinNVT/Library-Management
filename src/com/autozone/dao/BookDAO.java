@@ -1,5 +1,4 @@
 package com.autozone.dao;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -12,7 +11,6 @@ import com.autozone.models.Book;
 import com.autozone.utils.Validator;
 
 public class BookDAO {
-
 	public void addBook(Book book) throws SQLException, IllegalArgumentException, IllegalAccessException {
 		Validator.validate(book);
 		book.setAvailable(true);
@@ -116,7 +114,7 @@ public class BookDAO {
 
         return book;
     }
-
+	
 	public List<Book> findByTitle(String title) throws SQLException {
 	    String sql = "SELECT * FROM tbl_books WHERE title LIKE ?";
 	    /*I instantiated the list without explicitly specifying the type of elements it will contain. 
