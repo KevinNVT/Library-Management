@@ -234,7 +234,7 @@ VALUES
   ('William Davis', NULL),
   ('Olivia Wilson', NULL);
   ```
-  
+
   ```sql
   -- Select members
   SELECT * FROM tbl_members; 
