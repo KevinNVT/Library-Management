@@ -6,7 +6,7 @@ Project for GearUp
 - Remove existing books.
 - Update book information.
 - Search for books by different criteria (title, author, ISBN).
-
+- 
 ### Member Management
 - Register new members.
 - Remove existing members.
