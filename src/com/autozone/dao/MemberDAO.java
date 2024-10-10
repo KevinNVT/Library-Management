@@ -72,7 +72,6 @@ public class MemberDAO {
 	        }
 	    }
 	}
-
 	
 	public List<Member> findAll() throws SQLException {
 	    String sql = "SELECT * FROM tbl_members";
