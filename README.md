@@ -12,7 +12,7 @@ Project for GearUp
 - Remove existing members.
 - Update member information.
 - Search for members by different criteria (name, ID).
-
+- 
 ### Loan Transaction
 - Register a book loan.
 - Register the return of a book.
