@@ -37,7 +37,7 @@ public class Principal {
                 }
                 
                 scanner.nextLine();
-                
+		    
                 switch (choice) {
                     case 1:
                     	BookManager.manageBooks(scanner, bookDAO);
